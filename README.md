@@ -1,5 +1,7 @@
 # HEXRO
-The idea of the project is to create an intelligent visual system, that is triggered by voice commands. In standby mode, the system can be used as a normal mirror. After a voice command is recognized, the mirror becomes a display and can display in real-time, based on NASAs science data, the user-requested information. For example, where are there active landslides. The idea can be extended by further information retaining about previously active landslides with the purpose of future forecasting, automatic triggering and alerting users. Because of that, when in idle mode, it can process the collected data and, on the basis of probalistic algorithms, foresee possible landslides.
+HEXRO is a small six-legged robot, suitable for the planting of fruit trees and various seed crops in uncultivated, unfriendly, and uneven terrains. The main idea is for the robot to have different types of seeds in its hollow legs, allowing simultaneous planting of six different crops. At the same time, for planting trees or shoots that require greater sowing depth, HEXRO is equipped with a planting system, consisting of auger for soil and a tree feeder mechanism.
+
+Its control system is based on Raspberry Pi 3 and 16-channel, 12-bit PWM Extender, based on the PCA9685 integrated circuit. The communication between HEXRO and the operator (the robots operator) is done via Wi-Fi. An universal Windows platform application has been developed to manage HEXRO.
 
 # Details
 * Event: NASA Space Apps Challenge 2017
