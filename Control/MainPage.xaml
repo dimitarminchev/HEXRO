@@ -1,0 +1,22 @@
+﻿<Page
+    x:Class="Control.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Control"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <!-- MainPage -->
+    <StackPanel Background="RoyalBlue" Padding="50">
+        <TextBlock TextWrapping="Wrap" Text="Socket" FontSize="32" FontWeight="ExtraBold" Foreground="White" />
+        <TextBlock Text="Host" Padding="0 20 0 0" />
+        <TextBox Name="BoxHost" Text="192.168.5.104" />
+        <TextBlock Text="Port" Padding="0 20 0 0" />
+        <TextBox Name="BoxPort" Text="1234" />
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button Content="Control" Width="120" Margin="0 20 10 0" Padding="10" Click="Control_Button_Click" FontWeight="Bold" />
+            <Button Content="Command" Width="120" Margin="10 20 0 0" Padding="10" Click="Command_Button_Click" FontWeight="Bold" />
+        </StackPanel>
+    </StackPanel>
+</Page>
