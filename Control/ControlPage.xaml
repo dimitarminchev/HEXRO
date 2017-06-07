@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="Control.ControlPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Control"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <!-- ControlPage -->
+    <StackPanel Background="RoyalBlue" Padding="50">
+        <TextBlock TextWrapping="Wrap" Text="Control" FontSize="32" FontWeight="ExtraBold" Foreground="White" TextAlignment="Center" />
+        <!-- <Rectangle Margin="0 20 0 0" Height="1" Fill="White" /> -->
+        <Button Content="Stop" Margin="0 20 0 0" Width="200" Padding="50 10" Click="Stop_Button_Click" HorizontalAlignment="Center" FontWeight="Bold" />
+        <Button Content="Walk" Margin="0 20 0 0"  Width="200" Padding="50 10" Click="Walk_Button_Click" HorizontalAlignment="Center" FontWeight="Bold" />
+        <Button Content="Rotate" Margin="0 20 0 0"  Width="200" Padding="50 10" Click="Rotate_Button_Click" HorizontalAlignment="Center" FontWeight="Bold" />
+        <Button Content="Back" Margin="0 40 0 0" Width="200" Padding="50 10" Click="Back_Button_Click" HorizontalAlignment="Center" FontWeight="Bold" Foreground="White" />
+    </StackPanel>
+</Page>
