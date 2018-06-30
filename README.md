@@ -3,6 +3,9 @@ HEXRO is a small six-legged robot, suitable for the planting of fruit trees and 
 
 Its control system is based on Raspberry Pi 3 and 16-channel, 12-bit PWM Extender, based on the PCA9685 integrated circuit. The communication between HEXRO and the operator (the robots operator) is done via Wi-Fi. An universal Windows platform application has been developed to manage HEXRO.
 
+## Youtube demo
+[![HEXRO](http://img.youtube.com/vi/5N7MKJsepZA/0.jpg)](https://www.youtube.com/watch?v=5N7MKJsepZA)
+
 # Details
 * Event: NASA Space Apps Challenge 2017
 * Location: Burgas, Bulgaria
