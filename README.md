@@ -25,4 +25,4 @@ Its control system is based on Raspberry Pi 3 and 16-channel, 12-bit PWM Extende
 # Additional Resources
 * [YouTube Project Presentation Video](https://youtu.be/5N7MKJsepZA)
 * [GitHub Source Code Repository](https://github.com/dimitarminchev/HEXRO.git)
-* [The MIT License](https://opensource.org/licenses/MIT)
+* [The GPL License](https://opensource.org/licenses/GPL-3.0)
